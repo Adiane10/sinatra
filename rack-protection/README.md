@@ -13,7 +13,6 @@ require 'rack/protection'
 use Rack::Protection
 run MyApp
 ```
-
 Skip a single protection middleware:
 
 ``` ruby
